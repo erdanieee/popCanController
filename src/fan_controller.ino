@@ -272,6 +272,7 @@ byte checkButtons(){
 }
 
 
+//TODO:Usar librería "https://github.com/jeroendoggen/Arduino-signal-filtering-library" para el filtrado
 double adc2temp(){
   uint8_t i,j, kk;
   boolean flag;
